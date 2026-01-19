@@ -1,0 +1,35 @@
+secure-invoice-management/
+├── backend/                  # Spring Boot backend
+│   ├── src/main/java/com/example/invoice/
+│   │   ├── InvoiceApplication.java
+│   │   ├── config/
+│   │   │   ├── SecurityConfig.java
+│   │   │   └── JwtFilter.java
+│   │   ├── controller/
+│   │   │   ├── AuthController.java
+│   │   │   └── InvoiceController.java
+│   │   ├── entity/
+│   │   │   ├── User.java
+│   │   │   └── Invoice.java
+│   │   ├── repository/
+│   │   │   ├── UserRepository.java
+│   │   │   └── InvoiceRepository.java
+│   │   ├── service/
+│   │   │   ├── UserService.java
+│   │   │   └── InvoiceService.java
+│   │   └── util/
+│   │       └── JwtUtil.java
+│   └── src/main/resources/application.properties
+├── frontend/                 # React frontend
+│   ├── package.json
+│   ├── public/
+│   │   └── index.html
+│   └── src/
+│       ├── index.js
+│       ├── App.js
+│       ├── components/
+│       │   ├── Login.js
+│       │   └── InvoiceList.js
+│       └── services/
+│           └── api.js
+└── README.md
