@@ -1,0 +1,19 @@
+      ┌─────────────┐
+      │  React UI   │
+      └─────┬───────┘
+            │ Axios / REST
+            ▼
+    ┌─────────────────────┐
+    │ Spring Boot Backend │
+    │ ───────────────── │
+    │ AuthController     │
+    │ InvoiceController  │
+    │ Service Layer      │
+    │ Security Layer     │
+    └─────┬─────────────┘
+          │ JPA / Hibernate
+          ▼
+   ┌───────────────────┐
+   │ PostgreSQL DB     │
+   │ Users | Invoices  │
+   └───────────────────┘
