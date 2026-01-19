@@ -21,47 +21,6 @@ PostgreSQL database
 This project demonstrates end-to-end full-stack development skills, ideal for GitHub portfolios or Java Full Stack interviews.
 
 
-🏗 Architecture
-      ┌─────────────┐
-      │  React UI   │
-      └─────┬───────┘
-            │ Axios / REST
-            ▼
-    ┌─────────────────────┐
-    │ Spring Boot Backend │
-    │ ───────────────── │
-    │ AuthController     │
-    │ InvoiceController  │
-    │ Service Layer      │
-    │ Security Layer     │
-    └─────┬─────────────┘
-          │ JPA / Hibernate
-          ▼
-   ┌───────────────────┐
-   │ PostgreSQL DB     │
-   │ Users | Invoices  │
-   └───────────────────┘
-
-📂 Project Structure
-secure-invoice-management/
-├── backend/                  # Spring Boot backend
-│   ├── src/main/java/com/example/invoice/
-│   │   ├── config/
-│   │   ├── controller/
-│   │   ├── entity/
-│   │   ├── repository/
-│   │   ├── service/
-│   │   └── util/
-│   └── src/main/resources/application.properties
-├── frontend/                 # React frontend
-│   ├── public/
-│   ├── src/components/
-│   ├── src/services/
-│   ├── App.js
-│   └── index.js
-└── README.md
-
-
 
 🛠 Tech Stack
 Layer	Technology
